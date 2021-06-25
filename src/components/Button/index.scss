@@ -1,0 +1,22 @@
+.btn{
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 15px 15px 20px 0px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    color: #FEFFFF;
+    background-color: rgba(51, 51, 51, 0.8);
+    &:hover{     
+        background-color: #FEFFFF;
+        color: rgb(51, 51, 51);
+        transition: all 200ms ease-in;    
+    }
+    @media (min-width: 800px) {
+          padding: 15px 24px;
+          font-size: 1.2rem;
+    }
+}
