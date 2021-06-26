@@ -4,7 +4,11 @@ import Navbar from "./components/Navbar"
 import HomePage from "./components/HomePage"
 import MovieCategory from "./components/MovieCategory"
 import {netflixOriginalsUrl, 
-  netflixActionMovies,netflixComedyMovies,netflixHorrorMovies,netflixRomanceMovies,netflixDocumentMovies} from "./data"
+  netflixActionMovies,
+  netflixComedyMovies,
+  netflixHorrorMovies,
+  netflixRomanceMovies,
+  netflixDocumentMovies} from "./data"
 
 
 function App() {
