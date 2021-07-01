@@ -25,7 +25,7 @@ const HomePage = () => {
                          url("${imagePath}/${item.backdrop_path}")`}}>               
                    <div className="home__text">
                     <h1 className="home__title">{item.original_name}</h1>
-                    <div style={{display: "flex"}}>
+                    <div className="home__buttons" style={{display: "flex"}}>
                         <Button icon={<FiPlay/>} text={"Play"} />
                         <Button icon={<FiPlus/>} text={"My List"}/>
                     </div>

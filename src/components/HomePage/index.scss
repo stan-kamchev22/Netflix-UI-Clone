@@ -34,7 +34,6 @@
         text-shadow: 1px 1px 1px #000000;
         position: absolute;
         bottom: 80px;
-        
     }
     &__image{     
         height: 600px;
@@ -46,6 +45,9 @@
         @media (min-width: 1400px) {
             height: 800px;
         }
+    }
+    &__buttons{
+        margin: 10px 0;
     }
 }
 svg{
