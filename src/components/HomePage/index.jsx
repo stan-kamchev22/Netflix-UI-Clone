@@ -13,7 +13,7 @@ const HomePage = () => {
         setMovie(response.data.results)
     },[])
     const randomNum = Math.round(Math.random() * movie.length)
-    const gradient = "linear-gradient(0deg, rgba(0, 0, 0, 0.95) 10%, rgba(255, 255, 255, 0) 100%)"
+    const gradient = "linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, rgba(255, 255, 255, 0) 100%)"
     return (
         <div>
         {movie.slice(randomNum,randomNum+1).map((item)=>{
