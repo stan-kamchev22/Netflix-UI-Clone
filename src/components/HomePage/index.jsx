@@ -29,7 +29,7 @@ const HomePage = () => {
                         <Button icon={<FiPlay/>} text={"Play"} />
                         <Button icon={<FiPlus/>} text={"My List"}/>
                     </div>
-                    <p className="home__desc">{item.overview.length>=250 ? item.overview.substring(0,250) + "..." : item.overview}</p>
+                    <p className="home__desc">{item.overview.length>=250 ? item.overview.substring(0,230) + "..." : item.overview}</p>
                     </div>
                     </header>
                 </section>

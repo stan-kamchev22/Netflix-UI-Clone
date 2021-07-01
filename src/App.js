@@ -10,7 +10,6 @@ import {netflixOriginalsUrl,
   netflixRomanceMovies,
   netflixDocumentMovies} from "./data"
 
-
 function App() {
   return (
     <div className="App">     
